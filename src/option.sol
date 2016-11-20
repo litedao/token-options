@@ -6,7 +6,7 @@ import "./interface.sol";
 
 
 
-// Create a `ManagedOption is Option` via OptionFactory to register your option and
+// Create a `TrackedOption is Option` via OptionFactory to register your option and
 // optionally use a helper that pulls your tokens
 contract Option is DSBase {
     address public loser;   // loser is locked in until expiration, but starts as chooser
