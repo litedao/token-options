@@ -21,9 +21,8 @@ contract Option {
         expiration = _expiration;
     }
     function transfer(uint id, address new_owner) {
-        var o = options[id];
-        assert(msg.sender == o.owner);
-        options[id].owner = new_owner;
+        assert(msg.sender == owner);
+        owner = new_owner;
     }
     function exercise(uint id, ERC20 which_for_owner)
     {
