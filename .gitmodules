@@ -1,3 +1,6 @@
 [submodule ".dapple/packages/ds-base"]
 	path = .dapple/packages/ds-base
 	url = https://github.com/nexusdev/ds-base
+[submodule ".dapple/packages/erc20"]
+	path = .dapple/packages/erc20
+	url = https://github.com/nexusdev/erc20
